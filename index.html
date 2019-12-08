@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Page Title</title>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!-- Start Navbar Bootstrab -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" style="width: 20%; height: 20%;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!--language-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown09">
+                <a class="dropdown-item" href="index-ar.html"><span class="flag-icon flag-icon-fr"> </span> Arabic</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Eind Navbar -->
+
+  <!-- Start Head -->
+  <div class=" jumbotron-fluid height110p banner " id="home">
+    <div class="container h100">
+      <div class="contentBox h100 mt-lg-5">
+        <div class="maas-food">
+          <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Maas Food</h1>
+          <br>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Rice - Marketing</p>
+          <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">View more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Eind Head -->
+
+
+  <!-- start Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="sci">
+            <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-instagram"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-google-plus"></i></a> </li>
+          </ul>
+          <p class="cpryt"> <a href="techhoek.nl"> &copy 2019 || created by Tech Hoek team</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Eind Footer -->
+
+  <!-- start Social media ICONS BY JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Scrolling BY JQuery -->
+  <script>
+    $(document).scroll(function () {
+      $('.navbar').toggleClass('scrolled', $(this).
+        scrollTop() > $('.navbar').height());
+    });
+  </script>
+</body>
+
+<!-- THE EIND -->
+
+</html>
