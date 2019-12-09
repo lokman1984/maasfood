@@ -3,7 +3,6 @@
     
     scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 header{
     position: relative;
     z-index: 1000000;   
@@ -79,18 +78,17 @@ p{
     font-size: 4rem;
 }
 .maas-food{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cinzel', serif;
     font-weight: bold;
     text-align: right;
     position: absolute;
     text-align: center;
-    right:7.5%;
+    right:13%;
     top:30%;
 }
 .contentBox p{
     color:#fff;
     font-size: 1.3rem;
-    font-family: 'Lato', sans-serif;
 }
 footer{
     background: #fff;
@@ -129,19 +127,22 @@ footer{
     color: rgb(56, 56, 56);
 }
 
-@media (min-width: 300px) and (max-width: 765px){
+@media (min-width: 300px) and (max-width: 997px){
   
     .container {
         max-width: 100%;
     }
     .maas-food{
-        top:30%;
+        top:33%;
         position: inherit;
         margin-left: 100px;
     }
     
+    .maas-food p {
+        margin-top: -30px;
+    }
     h1{
-        font-size: 3rem !important;
+        font-size: 2.5rem !important;
     }
     .sci{
         

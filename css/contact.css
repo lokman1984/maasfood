@@ -2,7 +2,6 @@
     outline: none !important;
     scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 header{
     position: relative;
     z-index: 1000000;   
@@ -60,7 +59,7 @@ header{
 
 .headerText h2{
     font-size: 2.5rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cinzel', serif;
     margin-top:5rem;
     
 }

@@ -2,7 +2,6 @@
     outline: none !important;
     scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 header{
     position: relative;
     z-index: 1000000;   
@@ -61,7 +60,6 @@ p{
 .about-heading p{
     margin: 70px !important;
     font-size: 20px !important;
-    font-family: 'Lato', sans-serif;
 }
 .text{
  float: right;
