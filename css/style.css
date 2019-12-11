@@ -152,5 +152,9 @@ footer{
     .cpryt{
         font-size: 12px;
     }
+    .contentBox{
+        
+        background-position: 8% 92%;
+    }
 
 }
