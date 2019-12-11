@@ -129,6 +129,10 @@ footer{
 
 @media (min-width: 300px) and (max-width: 997px){
   
+    .navbar-toggler { 
+        margin-left: 64%;
+        position: fixed;
+    }
     .container {
         max-width: 100%;
     }
