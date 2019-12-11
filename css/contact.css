@@ -159,6 +159,7 @@ footer{
         margin-left: 64%;
         position: fixed;
     }
+
     #about{
         margin-top: 87px !important;
         height: 64vh !important;
@@ -176,9 +177,11 @@ footer{
         margin-bottom:20px !important;
         margin-top: 0rem !important;
     }
+
     .contact .form-control {
         width: 100%;
     }
+
     .headerText p{
         text-align: left;
         margin:8% 11% 1% 8%  !important; 
@@ -188,11 +191,13 @@ footer{
         margin-right: 0;
         margin-left: 0;
    }
+   
     .sci{
         
         font-size: 13px;
         margin-bottom:10px !important;
     }
+    
     .cpryt{
         font-size: 12px;    
         margin-bottom: 16px !important;

@@ -133,9 +133,11 @@ footer{
         margin-left: 64%;
         position: fixed;
     }
+
     .container {
         max-width: 100%;
     }
+
     .maas-food{
         top:33%;
         position: inherit;
@@ -145,19 +147,23 @@ footer{
     .maas-food p {
         margin-top: -30px;
     }
+
     h1{
         font-size: 2.5rem !important;
     }
+
     .sci{
         
         font-size: 13px;
         margin-bottom:10px !important;
     }
+
     .cpryt{
         font-size: 12px;
     }
+
     .contentBox{
-        
+
         background-position: 8% 92%;
     }
 
