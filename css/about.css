@@ -110,18 +110,24 @@ footer{
     color: rgb(56, 56, 56);
 }
 @media (min-width: 300px) and (max-width: 991.98px){
+
+    .navbar-toggler { 
+        margin-left: 64%;
+        position: fixed;
+    }
+
     .text{
-        
         margin-top: 5rem !important;
     }
         
     #about{
-        margin-top: 95px !important;
+        margin-top: 87px !important;
         height: 65vh !important;
         width: 100% !important;
         padding-left: 1px !important;
         padding-right: 1px !important;
     }
+
     .about-heading p{
         margin: 0 auto !important;
         font-size: 12px !important;
@@ -132,10 +138,12 @@ footer{
         font-size: 2rem !important; 
         margin-bottom:20px !important;
     }
+
     .row {
         margin-right: 0;
         margin-left: 0;
     }
+    
     .container{
         padding-left: 0 !important;
         padding-right: 0 !important;
