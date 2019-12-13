@@ -14,7 +14,7 @@ header{
     transition: 1.5s;
 }
 .nav-link{
-    padding: 0 30px !important;
+    padding: 0 35px !important;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -42,7 +42,6 @@ header{
 }
 .about-heading{
     text-align: center;
-    text-transform: uppercase;
     margin-top: 7rem !important;
 }
 .text{
@@ -56,7 +55,11 @@ header{
     padding-right:0 !important;
     padding-left: 0 !important;
 }
+img{
 
+    background-size: cover;
+    background-position: 8% 92%;
+}
 .headerText h2{
     font-size: 2.5rem;
     font-family: 'Cinzel', serif;
@@ -79,7 +82,7 @@ section :nth-child(1){
     
 }
 
-.contact .form-control{
+.contact .form-control {
     background: transparent;
     border: none;
     border-bottom: 2px solid rgba(255, 255, 255, .2);
@@ -87,8 +90,9 @@ section :nth-child(1){
     width: 125%;
     border: 1px solid black;
     background: rgb(255, 255, 255);
-    color: #fff;
+    color: black;
     font-size: 1.25rem;
+    
     
 }
 .contact .form-control:hover,
@@ -106,17 +110,24 @@ section :nth-child(1){
     min-height: 100%;
 
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color :  rgb(207, 207, 207) !important;
+  }
 .btnD1{
-    border: 2px solid #fff;
+    
+    border: 1px solid black;
     color: #000;
-    background: #fff;
-    border-radius: 50px;
     font-size: 1.15rem;
     outline: none;
     font-weight: 500;
-
-
 }
+
+.btnD1:hover{
+    border: none;
+    border-bottom: 2px solid rgb(169, 182, 184);
+    box-shadow: none;
+}
+
 footer{
     background: #fff;
     padding: 50px 0 0;
@@ -153,13 +164,8 @@ footer{
 .cpryt a:hover{
     color: rgb(56, 56, 56);
 }
-@media (min-width: 300px) and (max-width: 991.98px){
+@media (min-width: 300px) and (max-width: 990px){
  
-    .navbar-toggler { 
-        margin-left: 64%;
-        position: fixed;
-    }
-
     #about{
         margin-top: 87px !important;
         height: 64vh !important;
@@ -204,4 +210,10 @@ footer{
         padding-top: 9px !important;
     }
 
+}
+@media (min-width: 300px) and (max-width: 495px){
+.navbar-toggler { 
+    margin-left: 64%;
+    position: fixed;
+}
 }
