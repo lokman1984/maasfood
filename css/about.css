@@ -16,7 +16,7 @@ p{
     transition: 1.5s;
 }
 .nav-link{
-    padding: 0 30px !important;
+    padding: 0 35px !important;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -39,7 +39,8 @@ p{
     align-items: center;
     justify-content: center;
     max-width: 90%;
-    
+    padding-right:0 !important;
+    padding-left: 0 !important;
 }
 .about-color{
 
@@ -72,7 +73,6 @@ p{
     padding-left: 0;
     padding-right: 0;
 }
-
 footer{
     background: #fff;
     padding: 50px 0 0;
@@ -111,17 +111,14 @@ footer{
 }
 @media (min-width: 300px) and (max-width: 991.98px){
 
-    .navbar-toggler { 
-        margin-left: 64%;
-        position: fixed;
-    }
-
+    
     .text{
-        margin-top: 5rem !important;
+        margin-top: 4rem !important;
+        
     }
         
     #about{
-        margin-top: 87px !important;
+        margin-top: 77px !important;
         height: 65vh !important;
         width: 100% !important;
         padding-left: 1px !important;
@@ -130,7 +127,7 @@ footer{
 
     .about-heading p{
         margin: 0 auto !important;
-        font-size: 12px !important;
+        font-size: 15px !important;
         width: 100%;
     }
     
@@ -158,3 +155,10 @@ footer{
         font-size: 12px;
     }
 }
+
+@media (min-width: 300px) and (max-width: 495px){
+    .navbar-toggler { 
+        margin-left: 64% ;
+        position: fixed;
+    }
+    }

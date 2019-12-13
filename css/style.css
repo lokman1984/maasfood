@@ -17,7 +17,7 @@ p{
     transition: 1.5s;
 }
 .nav-link{
-    padding: 0 30px !important;
+    padding: 0 35px !important;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -40,10 +40,11 @@ p{
      border : solid rgba(225, 225, 225, 1) 1px;
      cursor: pointer !important;
      color: #fff;
-
  }
  .container {
     max-width: 90%;
+    padding-right:0 !important;
+    padding-left: 0 !important;
 }
  .banner{
      position: relative;
@@ -127,15 +128,11 @@ footer{
     color: rgb(56, 56, 56);
 }
 
-@media (min-width: 300px) and (max-width: 997px){
+@media (min-width: 300px) and (max-width: 905.98px){
   
-    .navbar-toggler { 
-        margin-left: 64%;
-        position: fixed;
-    }
-
+    
     .container {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .maas-food{
@@ -168,3 +165,11 @@ footer{
     }
 
 }
+
+@media (min-width: 300px) and (max-width: 495px){
+    .navbar-toggler { 
+        margin-left: 66% ;
+        position: fixed;
+      
+    }
+    }
