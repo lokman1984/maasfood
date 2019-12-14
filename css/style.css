@@ -1,12 +1,19 @@
 *{
     outline: none !important;
-    
     scroll-behavior: smooth;
 }
 header{
     position: relative;
     z-index: 1000000;   
     background: rgb(228, 225, 225) !important;
+}
+a:nth-child(1){
+    color: rgb(83, 83, 83) ;
+  
+}
+li:nth-child(1){
+    padding-right: 2px;
+    padding-left: 20px;
 }
 
 p{
@@ -131,6 +138,11 @@ footer{
 @media (min-width: 300px) and (max-width: 905.98px){
   
     
+    
+    body{
+
+        line-height: 2.5 ;
+    }
     .container {
         max-width: 90%;
     }
@@ -166,10 +178,14 @@ footer{
 
 }
 
-@media (min-width: 300px) and (max-width: 495px){
-    .navbar-toggler { 
-        margin-left: 66% ;
+@media (min-width: 300px) and (max-width: 625px){
+    .tog{ 
         position: fixed;
-      
+            left: 40% !important;
+        }
+        .lang {
+            position: fixed;
+            right: 6% !important;
+        }
     }
-    }
+        
