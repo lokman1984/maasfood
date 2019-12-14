@@ -8,6 +8,14 @@ header{
     background: rgb(228, 225, 225) !important;
 }
 
+a:nth-child(1){
+    color: rgb(83, 83, 83) ;
+  
+}
+li:nth-child(1){
+    padding-right: 2px;
+    padding-left: 20px;
+}
 
 .navbar {
     background: #fff !important;
@@ -54,6 +62,7 @@ header{
     width: 70rem !important;
     padding-right:0 !important;
     padding-left: 0 !important;
+
 }
 img{
 
@@ -166,6 +175,10 @@ footer{
 }
 @media (min-width: 300px) and (max-width: 990px){
  
+    body{
+
+        line-height: 2.5 ;
+    }
     #about{
         margin-top: 87px !important;
         height: 64vh !important;
@@ -210,10 +223,13 @@ footer{
         padding-top: 9px !important;
     }
 
-}
-@media (min-width: 300px) and (max-width: 495px){
-.navbar-toggler { 
-    margin-left: 64%;
-    position: fixed;
-}
-}
+}@media (min-width: 300px) and (max-width: 625px){
+    .tog{ 
+        position: fixed;
+            left: 40% !important;
+        }
+        .lang {
+            position: fixed;
+            right: 6% !important;
+        }
+    }
