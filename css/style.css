@@ -168,13 +168,5 @@ footer{
         background-position: 8% 92%;
     }
    
-    .language{
-        position: relative;
-       
-    }
-    .language:last-child{
-        background-color: aquamarine;
-       
-    }
-
+ 
 }
