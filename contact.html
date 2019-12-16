@@ -16,43 +16,26 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <!-- Start Navbar Bootstrab -->
-  <header id="home">
+   <!-- Start Navbar Bootstrab -->
+   <header>
+    
     <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" style="width: 20%; height: 20%;" alt=""></a>
-        <!--language-->
-        <div class="tog offset-lg-3">
-          <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item dropdown">
-              <a class=" dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span>English</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown09">
-                <a class="dropdown-item" href="contact-ar.html"><span class="flag-icon flag-icon-fr"> </span>Arabic</a>
-              </div>
-            </li>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""style="width: 50px; height: 50px;"></a>
+        <div class="d-flex flex-row order-2 order-lg-3">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item"><a class="nav-link px-1" href="contact-ar.html"><img src="images/ar.png" alt="" class="pr-2"style="width: 35px; height: 25px;" ></a></li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-
-        <div class="lang">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        </ul>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
         </div>
       </div>
     </nav>
@@ -63,7 +46,7 @@
   <section class="row about">
     <div class="container">
       <div>
-        <img id="about" src="images/foto contact.jpg" alt="" class="col-sm-12 col-lg-6 " data-aos="fade-right"
+        <img id="about" src="images/foto contact.jpg" alt="" class="mx-auto col-sm-12 col-lg-6 " data-aos="fade-right"
           data-aos-duration="1000" data-aos-delay="500">
         <div class="text about-heading col-sm-12 col-lg-6 " class="profile-img">
 
@@ -72,14 +55,14 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="headerText">
-                  <h2 class="text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">Contact us
+                  <h2 class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Contact us
                   </h2>
-                  <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                  <p class="text-left"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <b>Tel:</b>
                     <br> +31(0)628892317
                     <br> +31(0)686134471 <br><br>
                     <b> E-mail: </b>
-                    <br>info@mssafood.eu</p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                    <br>info@mssafood.eu</p >
                 </div>
               </div>
             </div>
