@@ -7,14 +7,6 @@ header{
     z-index: 1000000;   
     background: rgb(228, 225, 225) !important;
 }
-a:nth-child(1){
-    color: rgb(83, 83, 83) ;
-  
-}
-li:nth-child(1){
-    padding-right: 2px;
-    padding-left: 20px;
-}
 
 p{
     font-size: 1.15rem;
@@ -135,7 +127,7 @@ footer{
     color: rgb(56, 56, 56);
 }
 
-@media (min-width: 300px) and (max-width: 905.98px){
+@media (min-width: 300px) and (max-width: 991px){
   
     
     
@@ -175,17 +167,14 @@ footer{
 
         background-position: 8% 92%;
     }
+   
+    .language{
+        position: relative;
+       
+    }
+    .language:last-child{
+        background-color: aquamarine;
+       
+    }
 
 }
-
-@media (min-width: 300px) and (max-width: 625px){
-    .tog{ 
-        position: fixed;
-            left: 40% !important;
-        }
-        .lang {
-            position: fixed;
-            right: 6% !important;
-        }
-    }
-        

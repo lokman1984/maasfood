@@ -17,50 +17,30 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- Start Navbar Bootstrab -->
-  <header id="home">
+  <header>
+    
     <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" style="width: 20%; height: 20%;" alt=""></a>
-
-        <!--language-->
-        <div class="tog offset-lg-3">
-          <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span>Arabic</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown09">
-                <a class="dropdown-item" href="index.html"><span class="flag-icon flag-icon-fr"> </span>English</a>
-              </div>
-            </li>
+        <a class="navbar-brand" href="index-ar.html"><img src="images/logo.png" alt=""style="width: 50px; height: 50px;"></a>
+        <div class="d-flex flex-row order-2 order-lg-3">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item"><a class="nav-link px-1" href="index.html"><img src="images/en.png" alt="" class="pr-2"style="width: 35px; height: 25px;" ></a></li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-
-        <div class="lang">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        </ul>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index-ar.html">الرئيسية<span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="about-ar.html">من نحن</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-ar.html">التواصل معنا</a>
-            </li>
-          </ul>
-
+        <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index-ar.html">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="about-ar.html">من نحن</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-ar.html">التواصل معنا</a></li>
+            </ul>
         </div>
       </div>
     </nav>
   </header>
   <!-- Eind Navbar -->
-
   <!-- Start Head -->
   <div class=" jumbotron-fluid height110p banner " id="home">
     <div class="container h100">
@@ -85,7 +65,9 @@
           <ul class="sci">
             <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
             <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
             <li> <a href="#"><i class="fa fa-instagram"></i></a> </li>
+            <li> <a href="#"><i class="fa fa-google-plus"></i></a> </li>
           </ul>
           <p class="cpryt"> <a href="techhoek.nl"> &copy 2019 || created by Tech Hoek team</a></p>
         </div>

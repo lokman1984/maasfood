@@ -8,14 +8,6 @@ header{
     background: rgb(228, 225, 225) !important;
 }
 
-a:nth-child(1){
-    color: rgb(83, 83, 83) ;
-  
-}
-li:nth-child(1){
-    padding-right: 2px;
-    padding-left: 20px;
-}
 
 .navbar {
     background: #fff !important;
@@ -57,7 +49,7 @@ li:nth-child(1){
 }
 
 #about{
-    margin-top: 95px !important;
+    margin-top: 85px !important;
     height: 50rem !important;
     width: 70rem !important;
     padding-right:0 !important;
@@ -180,8 +172,8 @@ footer{
         line-height: 2.5 ;
     }
     #about{
-        margin-top: 87px !important;
-        height: 64vh !important;
+        margin-top: 125px !important;
+        height: 94vh !important;
         width: 100% !important;
         padding-left: 1px !important;
         padding-right: 1px !important;
@@ -223,13 +215,4 @@ footer{
         padding-top: 9px !important;
     }
 
-}@media (min-width: 300px) and (max-width: 625px){
-    .tog{ 
-        position: fixed;
-            left: 40% !important;
-        }
-        .lang {
-            position: fixed;
-            right: 6% !important;
-        }
-    }
+}
